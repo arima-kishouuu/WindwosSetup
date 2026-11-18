@@ -8,7 +8,13 @@
 #
 echo "alias open='explorer.exe .'" >> ~/.bashrc
 source ~/.bashrc
+[
 
+PS C:\Users\na\Code\rs_mod\test-mod-src> notepad $PROFILE
+PS C:\Users\na\Code\rs_mod\test-mod-src> function open { explorer.exe . }
+PS C:\Users\na\Code\rs_mod\test-mod-src> open .
+
+]
 
 
 
